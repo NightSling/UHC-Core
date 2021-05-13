@@ -1,0 +1,4 @@
+name: Scheduledtest
+version: ${project.version}
+main: me.rockorbonk.crackpixel.scheduledtest.Scheduledtest
+api-version: 1.16
