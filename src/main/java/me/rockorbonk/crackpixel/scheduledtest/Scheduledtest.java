@@ -19,6 +19,8 @@ public class Scheduledtest extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         BukkitTask CoolTask = new CoolTask(this).runTaskTimer(this, 0L, 900_000L);
+        BukkitTask CoolTask = new CoolTask(this).runTaskTimer(this, 0L, 1_800_000L);
+        BukkitTask CoolTask = new CoolTask(this).runTaskTimer(this, 0L, 2_400_000L);
         Bukkit.addRecipe(Apprentice_Sword());
     }
 
