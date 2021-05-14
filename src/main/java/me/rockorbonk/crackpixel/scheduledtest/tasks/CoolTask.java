@@ -30,7 +30,23 @@ public class CoolTask extends BukkitRunnable {
                 ItemMeta meta = item.getItemMeta();
                 meta.addEnchant(Enchantment.DAMAGE_ALL, 1, false);
                 item.setItemMeta(meta);
-
+                
+                
+     @Override
+     public void run() {
+        fori(int i = 0; 1 < player.getInventory().getSize(); ++i)
+            ItemStack item = player.getInventory().getItem(i);
+            if (item == null) {
+            if (!item.hasItemMeta()) {
+                ItemMeta meta = item.getItemMeta();
+                meta.addEnchant(Enchantment.DAMAGE_ALL, 2, false);
+                item.setItemMeta(meta);
+                
+                
+                
+                
+                        }
+                    }
                 }
             }
         }
